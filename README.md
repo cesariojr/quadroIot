@@ -12,12 +12,8 @@ Para isso foram utilizados os seguintes sensores:
 
 Como microcontrolador, foi utilizado um Arduino Mega 2560 com ethernet shield e 1 display LCD gráfico de 128x64 px para exibição de dados dos sensores e 1 LCD texto, 16x2 para monitoramento do quadro.
 
-![alt text](https://github.com/cesariojr/quadroIot/blob/master/quadrosensoresIOT.JPG)
+![alt text](https://github.com/cesariojr/quadroIot/blob/master/IMG_2211.JPG)
 
 Os dados derivados da medição dos sensores são formatados em JSON e enviados para o IBM Watson IoT Platform, utilizando o protocolo MQTT. Um dashboard criado em NodeRED, utilizando o componente UI foi criado para visualização dos dados em tempo real:
 
 https://internetdascoisas.mybluemix.net/ui/
-
-To Dos:
-1. adicionar código fonte
-2. adicionar esquema elétrico
